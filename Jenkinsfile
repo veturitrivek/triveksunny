@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/your/repo.git'
+        git branch: 'main', url: 'https://github.com/veturitrivek/triveksunny.git'
       }
     }
     stage('Build & Deploy') {
